@@ -31,7 +31,7 @@ namespace WinFormSynchrone
             //Classe la liste
             _listNb.Sort();
             //Ajoute la liste comme datasource de la list box
-            lbNumber.DataSource= _listNb;
+            lbNumber.DataSource = _listNb;
 
         }
         private void FillList()
