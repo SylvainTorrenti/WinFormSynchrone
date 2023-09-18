@@ -36,7 +36,7 @@ namespace WinFormSynchrone
         }
         private void FillList()
         {
-            //Tant que la liste ne contient 100 nombre
+            //Tant que la liste ne contient pas 100 éléments
             while (_listNb.Count < 100)
             {
                 //Tire un chiffre au hasard entre 1 et 100
